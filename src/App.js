@@ -13,8 +13,7 @@ import CountryList from './components/CountryList'
 import StudentList from './components/StudentList'
 import StudentsPercentage from './components/StudentsPercentage'
 
-import DataFetching from './components/DataFetching'
-
+import Gallery from './components/CardComponentChildren'
 
 function App() {
   return (
@@ -30,7 +29,10 @@ function App() {
         <p>this is paragraph</p>
       </Welcome>
       {/*<Hello />*/}
-      <DataFetching/>
+      {/*<Avatar size={100} person = {{firstName: 'mitali', lastName: 'gautam',imageId: 'YfeOqp2'}}/>
+      <Avatar size={80} person = {{firstName: 'mitali', lastName: 'gautam',imageId: 'YfeOqp2'}}/>
+  <Avatar size={30} person = {{firstName: 'mitali', lastName: 'gautam',imageId: 'YfeOqp2'}}/> */}
+  <Gallery/>
     </div>
   );
 }
